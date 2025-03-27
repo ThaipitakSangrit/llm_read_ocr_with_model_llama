@@ -1,0 +1,7 @@
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
+pip install huggingface_hub
+pip install --upgrade transformers
+pip install requests
+pip install pillow
+pip install psutil
+pip install accelerate>=0.26.0
