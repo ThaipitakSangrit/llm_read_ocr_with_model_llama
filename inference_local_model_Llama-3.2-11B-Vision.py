@@ -6,8 +6,8 @@ from PIL import Image
 model_path = 'C:/models_llama/Llama-3.2-11B-Vision'
 
 # โหลดรูปภาพ
-image_path = r"D:/work/python/ocr_utl3_use_llm_from_huggingface/images/$S00119AA-11D18ED26.000000E.jpg"
-# image_path = r"D:/work/python/ocr_utl3_use_llm_from_huggingface/images/T3508EF-02-1.jpg"
+image_path = r"D:/work/python/images/$S00119AA-11D18ED26.000000E.jpg"
+# image_path = r"D:/work/pythone/images/T3508EF-02-1.jpg"
 
 model = MllamaForConditionalGeneration.from_pretrained(
     model_path,
