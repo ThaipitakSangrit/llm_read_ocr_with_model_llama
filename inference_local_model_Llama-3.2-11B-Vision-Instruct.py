@@ -7,8 +7,8 @@ import re
 model_path = 'C:/models_llama/Llama-3.2-11B-Vision-Instruct'
 
 # โหลดรูปภาพ
-image_path = r"D:/work/python/ocr_utl3_use_llm_from_huggingface/images/$S00119AA-11D18ED26.000000E.jpg"
-# image_path = r"D:/work/python/ocr_utl3_use_llm_from_huggingface/images/T3508EF-02-1.jpg"
+image_path = r"D:/work/python/images/$S00119AA-11D18ED26.000000E.jpg"
+# image_path = r"D:/work/python/images/T3508EF-02-1.jpg"
 
 image = Image.open(image_path)
 
