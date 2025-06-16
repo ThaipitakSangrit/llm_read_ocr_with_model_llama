@@ -62,7 +62,7 @@ def process_image(image_path):
         print("ไม่พบคำตอบ")
 
 # โฟลเดอร์ที่มีรูปภาพ
-image_folder = 'D:/work/python/ocr_utl3_use_llm_from_huggingface/images'
+image_folder = 'D:/work/python/images'
 
 # ลูปผ่านทุกไฟล์ในโฟลเดอร์และประมวลผล
 for image_file in os.listdir(image_folder):
